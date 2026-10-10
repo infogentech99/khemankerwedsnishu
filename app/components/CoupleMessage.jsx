@@ -1,7 +1,7 @@
 export default function CoupleMessage() {
   return (
     <div className="bg-[url('/assets/respo_bg_two5.png')] md:bg-[url('/assets/bg_two4.png')] bg-cover bg-no-repeat">
-      <div className="h-360 md:h-585 lg:h-800 3xl:h-950">
+      <div className="h-420 md:h-585 lg:h-800 3xl:h-950">
         <h1 className="text-2xl md:text-2xl lg:text-[36px] text-center text-[#15528A] lg:pt-40 pt-20 jacques-francois">
           INTRODUCING
         </h1>
@@ -128,14 +128,31 @@ export default function CoupleMessage() {
                   className="h-8 w-8 md:w-8 md:h-8 lg:w-[42px] lg:h-[42px] 3xl:w-20 3xl:h-20"
                 />
               </a> */}
-              <h2 className="font-cormorant font-normal text-text-[18px] md:text-[20px] lg:text-[28px] text-[#15528A] pt-3">
+              <h2 className="font-parisienne-regular font-bold text-[18px] md:text-[20px] lg:text-[28px] text-[#15528A] pt-3">
                 RSVP
               </h2>
 
-              <h2 className="font-cormorant font-normal text-text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
-                Bhavneet Kaur & Gurneet Singh <br />
+              <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
+                Bhavneet Kaur & Guneet Singh <br />
                 Manan & Bhavneet Singh <br />
                 Jugraj Singh, Nirbhai Singh, Shoorveer Singh
+              </h2>
+              
+              <h2 className="font-parisienne-regular font-bold text-[20px] md:text-[20px] lg:text-[28px] text-[#15528A] pt-3">
+                Best Compliments From
+              </h2>
+
+              <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
+                Oberoi Family, Malhotra Family, Pasricha Family
+              </h2>
+
+
+               <h2 className="font-parisienne-regular font-bold text-[20px] md:text-[20px] lg:text-[28px] text-[#15528A] pt-3">
+                Tiny Treasures
+              </h2>
+
+              <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
+                Zafar and Zartaaj Singh
               </h2>
             </div>
           </div>

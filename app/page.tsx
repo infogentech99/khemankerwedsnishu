@@ -140,11 +140,11 @@ export default function Home() {
           <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
-            <span className="font-playfair-display italic">Parneet Kaur </span>
+            <span className="font-parisienne-regular italic">Parneet Kaur </span>
 
-            <span className="font-playfair-display text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
+            <span className="font-playfair-display text-[12px]  md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
 
-            <span className="font-playfair-display italic">Udyan Luthra</span>
+            <span className="font-parisienne-regular italic">Udyan Luthra</span>
 
           </h2>
 
@@ -164,9 +164,9 @@ export default function Home() {
 
             <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
             <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
-              Sardarni Rajinder Kaur and Late S. Bupinder Singh Biji
+              Sdn. Rajinder Kaur and Late S. Bupinder Singh Biji
               <br />
-              Sardarni Manpreet Kaur and Gurpreet Singh
+              Sdn. Manpreet Kaur and S. Gurpreet Singh
               {/* Grandmother Sardarni Surinder Kaur Kamboj and Kamboj Brothers */}
             </h2>
           </div>
@@ -180,21 +180,21 @@ export default function Home() {
               Invite you to celebrate you the auspicious union of their beloved daughter
             </p>
 
-            <h2 className="text-[#15528A] font-playfair-display text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
+            <h2 className="text-[#15528A] font-parisienne-regular text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
               Parneet Kaur
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              D/O Sardarni Kamaldeep Kaur and Sardar Maninder Singh
+              D/O Sdn Kamaldeep Kaur & S. Maninder Singh
             </p>
 
-            <h2 className="text-[#15528A] font-playfair-display text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
+            <h2 className="text-[#15528A] font-parisienne-regular text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
               <span className="text-[#15528A] font-playfair-display text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
                 & </span>   <br /> Udyan Luthra
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              S/O Neetu and Rohit Luthra
+              S/O Neetu & Rohit Luthra
             </p>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8">
