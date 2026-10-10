@@ -43,56 +43,32 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Haldi and Mehndi",
-      image: "/assets/mehandi.webp",
-      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Gobind Farm) <br /> 11:00 am Onwards</>,
-      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
+      title_ceremony: "Shri Sukhmani Sahib Path",
+      image: "/assets/path.webp",
+      venue_address: <>Tuesday, November 17th 2026 <br />  At our residence (#1351, Sector 10, Ambala) <br /> 11:00 am Onwards</>,
+      food: "Followed by Langer",
+      link: "https://maps.app.goo.gl/LB8ktoaLUh7SnxQ29",
     },
 
     {
-      title_ceremony: "Jago",
+      title_ceremony: "Nazz-e-kashmir",
+      image: "/assets/nazz.webp",
+      venue_address: <>Thursday, November 19th 2026 <br />  At our residence (#1351, Sector 10, Ambala) <br /> 8:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/LB8ktoaLUh7SnxQ29",
+    },
+
+    {
+      title_ceremony: "Jaago Night",
       image: "/assets/jago_amul.png",
-      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Gobind Farm) <br /> 7:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
+      venue_address: <>Friday, November 20th 2026 <br />  At our residence (#1351, Sector 10, Ambala) <br /> 5:30 pm Onwards</>,
+      link: "https://maps.app.goo.gl/LB8ktoaLUh7SnxQ29",
     },
 
     {
-      title_ceremony: "Shagan",
-      image: "/assets/shagan.webp",
-      venue_address: <>Friday, November 27th 2026 <br />  At our residence (Gobind Farm) <br /> 11:00 am Onwards</>,
-      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
-    },
-
-    {
-      title_ceremony: "Ring ceremony",
-      image: "/assets/ring_amul.png",
-      venue_address: <>Friday, November 27th 2026 <br /> Hotel Pasricha - Banquets & Lawns <br /> 8:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
-    },
-
-    {
-      title_ceremony: "Anand Karaj",
+      title_ceremony: "Wedding",
       image: "/assets/anand_amul.png",
-      venue_address: <>Saturday, November 28th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 11:30 am Onwards</>,
-      link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
-      title_ceremony2: "Followed by Lunch",
-      venue_address2: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
-      link2: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
-    },
-
-    //  {
-    //   title_ceremony: "Wedding ",
-    //    image: "/assets/anand_amul.png",
-    //   venue_address: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
-    //   link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
-    // },
-
-
-    {
-      title_ceremony: "Reception",
-      image: "/assets/reception_amul.png",
-      venue_address: <>Sunday, November 29th 2026 <br />  Hotel Vijan Mahal <br /> 7:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/LjvpmNbS5qAAc91Q7",
+      venue_address: <>Saturday, November 21st 2026 <br /> Aarzoo Resorts Ramgarh road Derabassi<br /> 11:00 am Onwards</>,
+      link: "https://maps.app.goo.gl/C7JvyjCu1MMaYv3r5",
     },
 
 
@@ -152,7 +128,7 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
+      <audio ref={audioRef} src="/assets/laavan.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
       <div className=" bg-[url('/assets/respo_bg_11zon.webp')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/bg.webp')]
@@ -164,11 +140,11 @@ export default function Home() {
           <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
-            <span className="font-playfair-display italic">Sargun Singh Kamboj </span>
+            <span className="font-playfair-display italic">Parneet Kaur </span>
 
             <span className="font-playfair-display text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
 
-            <span className="font-playfair-display italic">Kopal Kaur Ajmani</span>
+            <span className="font-playfair-display italic">Udyan Luthra</span>
 
           </h2>
 
@@ -188,37 +164,37 @@ export default function Home() {
 
             <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
             <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
-              {/* Sardarni Surinder Kaur Kamboj */}
-              Grandmother Sardarni Surinder Kaur Kamboj and Kamboj Brothers
+              Sardarni Rajinder Kaur and Late S. Bupinder Singh Biji
+              <br />
+              Sardarni Manpreet Kaur and Gurpreet Singh
+              {/* Grandmother Sardarni Surinder Kaur Kamboj and Kamboj Brothers */}
             </h2>
           </div>
 
           <div className="mt-8 text-center">
-            <h2 className="text-[#15528A] font-playfair-display text-3xl md:text-5xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider">
+            {/* <h2 className="text-[#15528A] font-playfair-display text-3xl md:text-5xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider">
               INVITES
-            </h2>
+            </h2> */}
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-6">
-              you to join us in the wedding celebrations of
+              Invite you to celebrate you the auspicious union of their beloved daughter
             </p>
 
             <h2 className="text-[#15528A] font-playfair-display text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
-              Sargun Singh Kamboj
+              Parneet Kaur
             </h2>
+
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              Grandson of Sardarni Surinder Kaur Kamboj
-            </p>
-            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              S/O <br /> Sardarni Gurjeet Kaur Kamboj and Sardar Rishi Raman Singh Kamboj
+              D/O Sardarni Kamaldeep Kaur and Sardar Maninder Singh
             </p>
 
             <h2 className="text-[#15528A] font-playfair-display text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
               <span className="text-[#15528A] font-playfair-display text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
-                & </span>   <br /> Kopal Kaur Ajmani
+                & </span>   <br /> Udyan Luthra
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              D/O <br /> Sardarni Ranu Ajmani and Sardar Narendra Singh Ajmani
+              S/O Neetu and Rohit Luthra
             </p>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8">
@@ -227,7 +203,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20 lg:mt-40">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-32 3xl:gap-50">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 lg:gap-32 3xl:gap-50">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
@@ -240,6 +216,7 @@ export default function Home() {
 
                   <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
                     <span className="text-sm md:text-base lg:text-xl">{event.venue_address}</span> <br />
+                    <span className="text-sm md:text-base lg:text-xl">{event.food}</span>
                   </p>
 
                   <a
@@ -249,30 +226,7 @@ export default function Home() {
                     See the route
                   </a>
 
-                  {event.title_ceremony2 && (
-                    <>
-                      <h2 className="text-[#15528A] font-playfair-display text-[17px] md:text-xl lg:text-[26px] mt-4">
-                        {event.title_ceremony2}
-                      </h2>
 
-                      <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
-                        <span className="text-sm md:text-base lg:text-xl">
-                          {event.venue_address2}
-                        </span>
-                      </p>
-
-                      {event.link2 && (
-                        <a
-                          href={event.link2}
-                          className="text-[#15528A] underline md:text-sm text-[12px] mt-2 font-playfair-display"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          See the route
-                        </a>
-                      )}
-                    </>
-                  )}
 
                 </div>
               ))}
@@ -289,13 +243,11 @@ export default function Home() {
               </p>
 
               <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-150 px-25 md:px-60">
-                {/* Thank you for being part of our journey.
+                Thank you for being part of our journey.
                 Your presence makes this celebration truly
                 meaningful, and we look forward to sharing
-                these cherished moments with you. */}
-                Sardar Pradeep Singh Kamboj <br/>
-Sardar Vikram Singh Kamboj  <br/>
-Sardar Rishi Raman Singh Kamboj
+                these cherished moments with you.
+
               </p>
             </div>
             <Image
@@ -317,21 +269,18 @@ Sardar Rishi Raman Singh Kamboj
         </div>
       </div> */}
 
+<picture className="block w-full">
+  <source
+    media="(min-width: 768px)"
+    srcSet="/assets/bg_three.webp"
+  />
 
-      <div className="hidden md:block bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat bg-center">
-        <div className="lg:h-330 md:h-180 flex pt-80 justify-center">
-          <img src="/assets/logo_n.png" alt="logo" className="w-32 h-48 md:w-40 lg:w-60" />
-        </div>
-      </div>
-
-
-      {/* mobile visible section */}
-      <div className="md:hidden bg-[url('/assets/respo_three.webp')] bg-cover bg-no-repeat">
-        <div className="h-230 flex  justify-center pt-50">
-          <img src="/assets/logo_n.png" alt="logo" className="w-40 h-36" />
-        </div>
-      </div>
-
+  <img
+    src="/assets/respo_three.webp"
+    alt=""
+    className="block w-full h-auto"
+  />
+</picture>
 
       <MarriageCountdown />
     </>
