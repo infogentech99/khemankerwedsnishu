@@ -135,7 +135,7 @@ export default function CoupleMessage() {
               <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
                 Rajiv Kakkar (Bade Papa) <br />
                 Suveera (Sister) <br />
-                Karishma (Sister))
+                Karishma (Sister)
                 <br />
                 Vibuti (Sister)
                 <br />
