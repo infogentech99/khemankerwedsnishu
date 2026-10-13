@@ -15,19 +15,19 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://parneetwedsudyan.vercel.app/"),
+  metadataBase: new URL("https://khemankerwedsnishu.vercel.app/"),
 
   openGraph: {
-    title: "Parneet Kaur & Udyan Luthra",
-    description: "Join as they begin their forever. 17, 19, 20 & 21 November, 2026",
-    url: "https://parneetwedsudyan.vercel.app/",
+    title: "Khemanker Kakkar & Nishu",
+    description: "Join as they begin their forever. 8, 10 & 11 December, 2026",
+    url: "https://khemankerwedsnishu.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Parneet Kaur & Udyan Luthra ",
+        alt: "Khemanker Kakkar & Nishu ",
       }, 
     ],
     type: "website",
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Parneet Kaur & Udyan Luthra",
-    description: "Join as they begin their forever. 17, 19, 20 & 21 November, 2026",
+    title: "Khemanker Kakkar & Nishu",
+    description: "Join as they begin their forever. 8, 10 & 11 December, 2026",
     images: ["/og.jpg"],
   },
 
  other: {
-    "og:image:secure_url": "https://parneetwedsudyan.vercel.app/og.jpg",
+    "og:image:secure_url": "https://khemankerwedsnishu.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 

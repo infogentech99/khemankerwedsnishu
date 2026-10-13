@@ -43,32 +43,26 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Shri Sukhmani Sahib Path",
-      image: "/assets/path.webp",
-      venue_address: <>Tuesday, November 17th 2026 <br />  At our residence (#1351, Sector 10, Ambala) <br /> 11:00 am Onwards</>,
-      food: "Followed by Langer",
-      link: "https://maps.app.goo.gl/LB8ktoaLUh7SnxQ29",
+      title_ceremony: "Mata Ki Chowki",
+      image: "/assets/mata.webp",
+      venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Avenue, Jalandhar <br /> 7:00 pm Onwards</>,
+      
+      link: "https://maps.app.goo.gl/GGo67eGBzZkr7uCn9",
     },
 
     {
-      title_ceremony: "Nazz-e-kashmir",
-      image: "/assets/nazz.webp",
-      venue_address: <>Thursday, November 19th 2026 <br />  At our residence (#1351, Sector 10, Ambala) <br /> 8:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/LB8ktoaLUh7SnxQ29",
+      title_ceremony: "Cocktail Party",
+      image: "/assets/cocktail.webp",
+      venue_address: <>Thursday, December 10th 2026 <br /> 16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Avenue, Jalandhar <br /> 8:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/GGo67eGBzZkr7uCn9",
     },
 
-    {
-      title_ceremony: "Jaago Night",
-      image: "/assets/jago_amul.png",
-      venue_address: <>Friday, November 20th 2026 <br />  At our residence (#1351, Sector 10, Ambala) <br /> 5:30 pm Onwards</>,
-      link: "https://maps.app.goo.gl/LB8ktoaLUh7SnxQ29",
-    },
 
     {
-      title_ceremony: "Wedding",
+      title_ceremony: "Wedding Ceremony",
       image: "/assets/anand_amul.png",
-      venue_address: <>Saturday, November 21st 2026 <br /> Aarzoo Resorts Ramgarh road Derabassi<br /> 11:00 am Onwards</>,
-      link: "https://maps.app.goo.gl/C7JvyjCu1MMaYv3r5",
+      venue_address: <>Saturday, December 11th 2026 <br /> At our residence (Towards Hotel Regent Park,<br/>  Mahavir Marg, Jalandhar)<br /> 11:00 am Onwards</>,
+      link: "https://maps.app.goo.gl/jQVr3ypGKrs3X5oV6",
     },
 
 
@@ -140,11 +134,11 @@ export default function Home() {
           <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
-            <span className="font-parisienne-regular italic">Parneet Kaur </span>
+            <span className="font-parisienne-regular italic">Khemanker Kakkar </span>
 
             <span className="font-playfair-display text-[12px]  md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
 
-            <span className="font-parisienne-regular italic">Udyan Luthra</span>
+            <span className="font-parisienne-regular italic">Nishu</span>
 
           </h2>
 
@@ -163,12 +157,12 @@ export default function Home() {
             </h2>
 
             <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
-            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
+            {/* <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
               Sdn. Rajinder Kaur and Late S. Bupinder Singh Biji
               <br />
-              Sdn. Manpreet Kaur and S. Gurpreet Singh
+              Sdn. Manpreet Kaur and S. Gurpreet Singh */}
               {/* Grandmother Sardarni Surinder Kaur Kamboj and Kamboj Brothers */}
-            </h2>
+            {/* </h2> */}
           </div>
 
           <div className="mt-8 text-center">
@@ -177,24 +171,24 @@ export default function Home() {
             </h2> */}
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-6">
-              Invite you to celebrate you the auspicious union of their beloved daughter
+              You to Join us in the Wedding Celebrations of
             </p>
 
             <h2 className="text-[#15528A] font-parisienne-regular text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
-              Parneet Kaur
+              Khemanker Kakkar
             </h2>
 
-            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              D/O Sdn Kamaldeep Kaur & S. Maninder Singh
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl">
+              (S/O Rakesh Kakkar & Sunita Kakkar)
             </p>
 
             <h2 className="text-[#15528A] font-parisienne-regular text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
               <span className="text-[#15528A] font-playfair-display text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
-                & </span>   <br /> Udyan Luthra
+                & </span>   <br /> Nishu
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              S/O Neetu & Rohit Luthra
+              (D/O Monika & Ved Prakash)
             </p>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8">
@@ -215,8 +209,8 @@ export default function Home() {
                   </h2>
 
                   <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
-                    <span className="text-sm md:text-base lg:text-xl">{event.venue_address}</span> <br />
-                    <span className="text-sm md:text-base lg:text-xl">{event.food}</span>
+                    <span className="text-sm md:text-base lg:text-xl">{event.venue_address}</span>
+                  
                   </p>
 
                   <a

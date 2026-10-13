@@ -9,24 +9,24 @@ export default function CoupleMessage() {
           The Couple
         </h2>
         <div className="relative flex flex-col items-center mt-12 md:mt-12 lg:mt-20 3xl:mt-30">
-          <h2 className=" text-[#15528A] text-left text-2xl md:text-4xl lg:text-[68px] 3xl:text-[78px] pl-50 md:pl-114 lg:pl-180 3xl:pl-240 md:mt-2 lg:mt-3 3xl:mt-5 flex flex-col justify-end mt-[-5]">
-            <span className="jacques-francois">Parneet</span>
+          <h2 className=" text-[#15528A] text-left text-xl md:text-4xl lg:text-[68px] 3xl:text-[78px] pl-55 md:pl-114 lg:pl-180 3xl:pl-240 md:mt-2 lg:mt-3 3xl:mt-5 flex flex-col justify-end mt-[-5]">
+            <span className="jacques-francois">Khemanker</span>
             <span className="lavishly-yours-regular opacity-50 text-[#6CB9FF] text-5xl md:text-7xl lg:text-[150px] tracking-widest -mt-6 pl-5 md:-mt-9 md:pl-10 lg:-mt-19 lg:pl-18">
               &
             </span>
             <span className="jacques-francois -mt-4 md:-mt-6 lg:-mt-10">
-              Udyan
+              Nishu
             </span>
           </h2>
 
           <img
-            src="/assets/onee.webp"
+            src="/assets/one.webp"
             alt="couple"
             className="absolute right-40 w-35 h-28 md:right-78 md:w-60 md:h-46 
                               lg:right-143 lg:w-106 lg:h-83 3xl:right-167 3xl:w-146 3xl:h-103 z-20 cover"
           />
           <img
-            src="/assets/twoo.webp"
+            src="/assets/two.webp"
             alt="couple_one"
             className="absolute top-15 left-6 w-32 h-55 md:left-21 
                                md:top-24 md:w-54 md:h-90 lg:left-50 lg:top-45 lg:w-97 lg:h-166 3xl:left-68 3xl:top-60 3xl:w-117 3xl:h-186 z-10"
@@ -39,13 +39,13 @@ export default function CoupleMessage() {
                                md:h-59 lg:right-150 lg:top-61 lg:w-82 lg:h-110 3xl:right-180 3xl:top-75 3xl:w-102 3xl:h-130 z-40"
           />
           <img
-            src="/assets/fourr.webp"
+            src="/assets/six.webp"
             alt="couple"
             className="absolute right-9 top-18 w-39 h-59 md:right-22 md:top-30 md:w-69 
                                md:h-98 lg:right-49 lg:top-55 lg:w-118 lg:h-176 3xl:right-61 3xl:top-67 3xl:w-138 3xl:h-196 z-30"
           />
           <img
-            src="/assets/sixx.webp"
+            src="/assets/four.webp"
             alt="couple"
             className="absolute top-60 right-38 w-40 h-30 md:right-76 md:top-97 md:w-70 
                                md:h-50 lg:right-142 lg:top-181 lg:w-120 lg:h-91 3xl:top-212 3xl:right-170 3xl:w-160 3xl:h-111 z-20"
@@ -133,26 +133,17 @@ export default function CoupleMessage() {
               </h2>
 
               <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
-                Bhavneet Kaur & Guneet Singh <br />
-                Manan & Bhavneet Singh <br />
-                Jugraj Singh, Nirbhai Singh, Shoorveer Singh
-              </h2>
-              
-              <h2 className="font-parisienne-regular font-bold text-[20px] md:text-[20px] lg:text-[28px] text-[#15528A] pt-3">
-                Best Compliments From
-              </h2>
-
-              <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
-                Oberoi Family, Malhotra Family, Pasricha Family
-              </h2>
-
-
-               <h2 className="font-parisienne-regular font-bold text-[20px] md:text-[20px] lg:text-[28px] text-[#15528A] pt-3">
-                Tiny Treasures
-              </h2>
-
-              <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
-                Zafar and Zartaaj Singh
+                Rajiv Kakkar Bare Papa <br />
+                Suveera Sister <br />
+                Karishma Sister
+                <br />
+                Vibuti Sister
+                <br />
+                Vabhav Brother <br />
+                Chirag
+                <br />
+                Rajan Kapila Fufad <br />
+                Ritu Kapila Bua <br />
               </h2>
             </div>
           </div>
