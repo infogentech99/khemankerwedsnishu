@@ -45,16 +45,15 @@ export default function Home() {
     {
       title_ceremony: "Mata Ki Chowki",
       image: "/assets/mata.webp",
-      venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Avenue, Jalandhar <br /> 7:00 pm Onwards<br/> Followed by Priti bhoj- 8:00 pm Onwards</>,
-      
-      link: "https://maps.app.goo.gl/GGo67eGBzZkr7uCn9",
+      venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Avenue, Jalandhar <br /> 7:00 pm Onwards<br/> Followed by Priti bhoj- 8:00 pm Onwards</>,   
+      link: "https://maps.app.goo.gl/gg24u1CNiqb4Y6Ng6",
     },
 
     {
       title_ceremony: "Cocktail Party",
       image: "/assets/cocktail.webp",
       venue_address: <>Thursday, December 10th 2026 <br /> Hotel Regent Park <br/> Mahavir Marg Jalandar <br /> 8:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/54dAFXPdXaHykDY19",
+      link: "https://maps.app.goo.gl/fjxuRGFQRRJTL6mU7",
     },
 
 
@@ -63,7 +62,7 @@ export default function Home() {
       image: "/assets/anand_amul.png",
       venue_address: <>Saturday, December 11th 2026 <br /> At our residence (Towards Hotel Regent Park,<br/>  Mahavir Marg, Jalandhar)<br />
       Shera Bandi timing 7:00 pm Onwards <br/> Departure of the Baraat from the Residence at 8:00 PM <br/> for Hotel Regent Park</>,
-      link: "https://maps.app.goo.gl/jQVr3ypGKrs3X5oV6",
+      link: "https://maps.app.goo.gl/fjxuRGFQRRJTL6mU7",
     },
 
 
