@@ -61,7 +61,7 @@ export default function Home() {
     {
       title_ceremony: "Wedding & Sehra Bandi Ceremony",
       image: "/assets/anand_amul.png",
-      venue_address: <>Saturday, December 11th 2026 <br /> At our residence (Towards Hotel Regent Park,<br/>  Mahavir Marg, Jalandhar)<br /> 11:00 am Onwards <br/>
+      venue_address: <>Saturday, December 11th 2026 <br /> At our residence (Towards Hotel Regent Park,<br/>  Mahavir Marg, Jalandhar)<br />
       Shera Bandi timing 7:00 pm Onwards <br/> Departure of the Baraat from the Residence at 8:00 PM <br/> for Hotel Regent Park</>,
       link: "https://maps.app.goo.gl/jQVr3ypGKrs3X5oV6",
     },

@@ -134,7 +134,7 @@ export default function CoupleMessage() {
 
               <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
                 Rajiv Kakkar (Bade Papa) <br />
-                Rajan Kapila (Fufad ji) <br />
+                Rajan Kapila (Fufa ji) <br />
                 Ritu Kapila (Bua ji) <br />
                 Suveera (Sister) <br />
                 Karishma (Sister)
