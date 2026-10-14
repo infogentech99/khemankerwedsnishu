@@ -134,16 +134,16 @@ export default function CoupleMessage() {
 
               <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
                 Rajiv Kakkar (Bade Papa) <br />
+                Rajan Kapila (Fufad ji) <br />
+                Ritu Kapila (Bua ji) <br />
                 Suveera (Sister) <br />
                 Karishma (Sister)
                 <br />
                 Vibuti (Sister)
                 <br />
                 Vabhav (Brother) <br />
-                Chirag
-                <br />
-                Rajan Kapila (Fufad) <br />
-                Ritu Kapila (Bua) <br />
+                Chirag (Brother)
+              
               </h2>
             </div>
           </div>

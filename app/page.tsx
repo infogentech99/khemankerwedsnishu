@@ -45,7 +45,7 @@ export default function Home() {
     {
       title_ceremony: "Mata Ki Chowki",
       image: "/assets/mata.webp",
-      venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Avenue, Jalandhar <br /> 7:00 pm Onwards</>,
+      venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Avenue, Jalandhar <br /> 7:00 pm Onwards<br/> Followed by Priti bhoj- 8:00 pm Onwards</>,
       
       link: "https://maps.app.goo.gl/GGo67eGBzZkr7uCn9",
     },
@@ -53,15 +53,16 @@ export default function Home() {
     {
       title_ceremony: "Cocktail Party",
       image: "/assets/cocktail.webp",
-      venue_address: <>Thursday, December 10th 2026 <br /> 16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Avenue, Jalandhar <br /> 8:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/GGo67eGBzZkr7uCn9",
+      venue_address: <>Thursday, December 10th 2026 <br /> Hotel Regent Park <br/> Mahavir Marg Jalandar <br /> 8:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/54dAFXPdXaHykDY19",
     },
 
 
     {
-      title_ceremony: "Wedding Ceremony",
+      title_ceremony: "Wedding & Sehra Bandi Ceremony",
       image: "/assets/anand_amul.png",
-      venue_address: <>Saturday, December 11th 2026 <br /> At our residence (Towards Hotel Regent Park,<br/>  Mahavir Marg, Jalandhar)<br /> 11:00 am Onwards</>,
+      venue_address: <>Saturday, December 11th 2026 <br /> At our residence (Towards Hotel Regent Park,<br/>  Mahavir Marg, Jalandhar)<br /> 11:00 am Onwards <br/>
+      Shera Bandi timing 7:00 pm Onwards <br/> Departure of the Baraat from the Residence at 8:00 PM <br/> for Hotel Regent Park</>,
       link: "https://maps.app.goo.gl/jQVr3ypGKrs3X5oV6",
     },
 
@@ -187,8 +188,8 @@ export default function Home() {
                 & </span>   <br /> Nishu
             </h2>
 
-            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              (D/O Monika & Ved Prakash)
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl">
+              (D/O Monika & Ved Prakash Batta)
             </p>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8">
@@ -245,7 +246,7 @@ export default function Home() {
               </p>
             </div>
             <Image
-              src="/assets/couple.webp"
+              src="/assets/couple_n.webp"
               alt="couple" width={900} height={1200}
               className="w-108 h-104 md:w-205 md:h-198 lg:w-440 lg:h-374 3xl:w-480 3xl:h-463 object-cover" />
           </div>
