@@ -45,7 +45,7 @@ export default function Home() {
     {
       title_ceremony: "Mata Ki Chowki",
       image: "/assets/mata.webp",
-      venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Avenue, Jalandhar <br /> 7:00 pm Onwards<br/> Followed by Priti bhoj- 8:00 pm Onwards</>,   
+      venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Singh Avenue, Jalandhar <br /> 7:00 pm Onwards<br/> Followed by Priti bhoj- 8:00 pm Onwards</>,   
       link: "https://maps.app.goo.gl/gg24u1CNiqb4Y6Ng6",
     },
 
@@ -60,8 +60,8 @@ export default function Home() {
     {
       title_ceremony: "Wedding & Sehra Bandi Ceremony",
       image: "/assets/anand_amul.png",
-      venue_address: <>Saturday, December 11th 2026 <br /> At our residence (Towards Hotel Regent Park,<br/>  Mahavir Marg, Jalandhar)<br />
-      Shera Bandi timing 7:00 pm Onwards <br/> Departure of the Baraat from the Residence at 8:00 PM <br/> for Hotel Regent Park</>,
+      venue_address: <>
+      Shera Bandi on Friday December 11th 2026 timing 7:00 pm at our Residence 16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Singh Avenue, Jalandhar <br/> Departure of the Baraat from the Residence at 8:00 PM. <br/>  At our Residence Towards Hotel Regent Park,<br/>  Mahavir Marg, Jalandhar<br /></>,
       link: "https://maps.app.goo.gl/fjxuRGFQRRJTL6mU7",
     },
 
@@ -132,13 +132,13 @@ export default function Home() {
 
         <div className="pt-38 md:pt-88 lg:pt-150 3xl:pt-200 relative z-10">
           <h2 className="text-[#AE633A] text-center leading-tight text-2xl md:text-5xl lg:text-[80px] pb-120
-                          md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5">
+                          md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5 ">
 
-            <span className="font-parisienne-regular">Khemanker Kakkar </span>
+            <span className="font-parisienne-regular font-semibold">Khemanker </span>
 
             <span className="font-playfair-display text-[12px]  md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
 
-            <span className="font-parisienne-regular">Nishu</span>
+            <span className="font-parisienne-regular font-semibold mt-1">Nishu</span>
 
           </h2>
 
@@ -175,11 +175,11 @@ export default function Home() {
             </p>
 
             <h2 className="text-[#15528A] font-parisienne-regular text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
-              Khemanker Kakkar
+              Khemanker
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl">
-              (S/O Rakesh Kakkar & Sunita Kakkar)
+              (S/O Rakesh & Sunita)
             </p>
 
             <h2 className="text-[#15528A] font-parisienne-regular text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">

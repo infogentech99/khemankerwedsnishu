@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://khemankerwedsnishu.vercel.app/"),
 
   openGraph: {
-    title: "Khemanker Kakkar & Nishu",
+    title: "Khemanker & Nishu",
     description: "Join as they begin their forever. 8, 10 & 11 December, 2026",
     url: "https://khemankerwedsnishu.vercel.app/",
     siteName: "InviteArc",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Khemanker Kakkar & Nishu ",
+        alt: "Khemanker & Nishu ",
       }, 
     ],
     type: "website",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Khemanker Kakkar & Nishu",
+    title: "Khemanker & Nishu",
     description: "Join as they begin their forever. 8, 10 & 11 December, 2026",
     images: ["/og.jpg"],
   },
